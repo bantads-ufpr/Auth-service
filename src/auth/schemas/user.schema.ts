@@ -13,6 +13,7 @@ export class User {
 
   @Prop({ default: 'cliente' })
   role: string;
+    _id: any;
 }
 
 export const UserSchema = SchemaFactory.createForClass(User);
